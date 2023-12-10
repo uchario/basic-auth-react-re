@@ -12,3 +12,4 @@ Currently, two official plugins are available:
 - There are only 3 users available; 'admin', 'super-user' and'user
 - The usernames are same as the roles
 - Any password works for the application
+- User list is loaded from user.json file
