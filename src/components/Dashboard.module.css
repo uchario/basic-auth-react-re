@@ -1,0 +1,109 @@
+.dashboard {
+  height: 100vh;
+  max-width: 100vw;
+  display: flex;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.dashboard-left {
+  width: 15%;
+  background-color: #fff;
+  padding: 1rem;
+  color: #000;
+}
+
+.user-icon-name {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: solid 0.2rem black;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.user-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 30%;
+  background-color: #082f49;
+}
+
+.form {
+  text-align: center;
+}
+
+.form button {
+  padding: 1rem 2rem;
+  border: solid 0.1rem #dc2626;
+  border-radius: 1rem;
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: #dc2626;
+  cursor: pointer;
+  transition: color 0.4s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #dc2626;
+  border: solid 0.1rem #fff;
+  color: #fff;
+}
+
+.dashboard-right {
+  flex: 1;
+  padding: 2rem;
+  overflow-x: scroll;
+  background-image: linear-gradient(45deg, #082f49d3, #1f2937),
+    url("../assets/login.jpg");
+  background-size: 100% 100%;
+}
+
+.heading-secondary {
+  margin-bottom: 2rem;
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-radius: 1rem;
+}
+
+thead th:nth-child(1) {
+  width: 5%;
+}
+thead th:nth-child(2) {
+  width: 10%;
+}
+thead th:nth-child(3) {
+  width: 10%;
+}
+thead th:nth-child(4) {
+  width: 20%;
+}
+thead th:nth-child(5) {
+  width: 10%;
+}
+thead th:nth-child(6) {
+  width: 15%;
+}
+thead th:nth-child(7) {
+  width: 30%;
+}
+
+th,
+td {
+  padding: 2rem;
+  text-align: left;
+}
+
+thead {
+  background-color: #e5e7eb;
+  color: #000;
+}
+
+tbody tr {
+  border-bottom: solid 0.1rem #e5e7eb;
+}
