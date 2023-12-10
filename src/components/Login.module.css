@@ -19,15 +19,32 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   color: #fff;
-  width: 40%;
+  width: 50%;
+  height: 75%;
+}
+
+@media (max-width: 44em) {
+    .form {
+        padding: 4rem;
+    }
+}
+
+@media (max-width: 32em) {
+    .form {
+        padding: 2rem;
+    }
 }
 
 .header-secondary {
   text-transform: uppercase;
-  margin-bottom: 6rem;
-  border-bottom: solid 0.1rem #fff;
-  font-size: 3rem;
+  margin-bottom: 4rem;
+  border-bottom: solid 0.2rem #fff;
+  font-size: 4rem;
+  display: inline-block;
+  color: #082f49;
+  /* color: #1f2937; */
 }
 
 .form-control {
@@ -50,7 +67,7 @@ input:focus {
 }
 
 input:focus.invalid {
-    border: solid 0.2rem #dc2626;
+  border: solid 0.2rem #dc2626;
 }
 
 input::placeholder {
